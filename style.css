@@ -37,9 +37,7 @@ body {
     }
     .container {
         display: flex;
-        flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
     }
 }
 
@@ -47,12 +45,18 @@ body {
 @media screen and (max-width: 600px) {
     body {
         background-color: olive;
-        
     }
     .container {
         display: flex;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .btn {
+        width: 70px;
+        height: 70px;
+        border-radius: 10%;
+        border: 3px solid white;
+        margin: 2rem ;
     }
 }
