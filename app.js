@@ -14,6 +14,14 @@ document.addEventListener('keypress', function() {
     } 
 });
 
+function startGame() {
+    if(!start) { 
+        console.log('Gmae is starting');
+        start = true;
+        leavelup();
+    }
+}
+
 function btnFlah (btn) {
     btn.classList.add('flsh');
     setTimeout(function() {
