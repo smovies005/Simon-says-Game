@@ -50,9 +50,9 @@ function checkAns (idx) {
         }
     } else {
         h2.innerHTML = `Game is over ! Your Score was <b>${leavel}</b><br>Press any key to start `;
-        // document.querySelector('body').style.backgroundColor = 'red';
+        document.querySelector('body').style.backgroundColor = 'red';
         setTimeout(function() {
-            // document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.backgroundColor = 'black';
         }, 150);
         restart();
     }
