@@ -3,6 +3,9 @@ body {
     background-color: black ;
     color: whitesmoke;
 }
+.phone{
+    display: none ;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -57,6 +60,7 @@ body {
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
+        position: relative;
     }
     .btn {
         width: 75px;
@@ -64,5 +68,10 @@ body {
         border-radius: 10%;
         border: 3px solid white;
         margin: 2rem ;
+    }.phone{
+        display: contents ;
+    }
+    .Pc{
+        display: none ;
     }
 }
