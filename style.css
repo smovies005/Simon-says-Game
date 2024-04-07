@@ -37,7 +37,7 @@ body {
     }
     .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
     }
@@ -47,5 +47,12 @@ body {
 @media screen and (max-width: 600px) {
     body {
         background-color: olive;
+        
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
